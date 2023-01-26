@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <h1>Belbin Team Roles Self Perception Inventory</h1>
 
 <p>To complete each section of this questionnaire, tick in the far left hand column the one, two or three sentences most applicable to yourself. Then in the column on the right, apportion 10 points between those sentences that apply to you: one of which you feel sums you up well while the other only applies some of the time. 
@@ -12,6 +11,15 @@
           border: 1px solid black;
         }
         </style>
+        <script type="text/javascript">
+          function EnableDisableTextBox(a1) {
+            var txtPassportNumber = document.getElementById("txtPassportNumber");
+            p1.disabled = a1.checked ? false : true;
+            if (!p1.disabled) {
+               p1.focus();
+            }
+    }
+</script>
     <table style="width:60%">
         <tr>
           <th>Option</th>
